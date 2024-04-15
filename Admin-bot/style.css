@@ -1,0 +1,34 @@
+body {
+    background-color: #222;
+    color: #eee;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #ff6f61;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input[type="url"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #555;
+    background-color: #333;
+    color: #eee;
+}
+button[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff6f61;
+    color: #eee;
+    cursor: pointer;
+}
+button[type="submit"]:hover {
+    background-color: #ff8c7d;
+}
