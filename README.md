@@ -2,4 +2,5 @@
  It is simple dont think tooo much 
 
  ## NOTE:
- Admin bot still need to be implemented 
+ Admin bot and webiste need to be hosted : writeup will soon be added 
+ 
