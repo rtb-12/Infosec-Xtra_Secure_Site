@@ -10,11 +10,11 @@
         <a class="mr-2 mt-0 mb-0  text-dark" href="{% url 'user-posts' object.author.username  %}"><h3>{{ object.author }}</h3></a>
         <small class="text-muted  text-align-right">{{ object.date_upload }}</small>
         </div>
-        {% if object.author != user %}
+        {% comment %} {% if object.author != user %}
           <div class="form-group mt-0 pt-0 d-flex justify-content-end">          
             <a href="{{ object.file.url }}" download class="btn btn-primary flex-last" type="submit"><i class="fas fa-download"></i> Downlaod</a>
           </div>
-        {% endif %}
+        {% endif %} {% endcomment %}
         <hr>
         {% if object.author == user %}
           <div>
